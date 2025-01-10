@@ -7,9 +7,9 @@ export async function GET(request: Request) {
   const username = url.searchParams.get("username") || "Hs918131";
 
   try {
-    // Use the search.repos endpoint to find repositories with the 'side-project' topic for the provided username or default to hs918131
+    // Use the search.repos endpoint to find repositories with the 'project.spot' topic for the provided username or default to hs918131
     const { data } = await octokit.search.repos({
-      q: `topic:side-project user:${username}`,
+      q: `topic:project.spot user:${username}`,
       per_page: 100,
     });
 
