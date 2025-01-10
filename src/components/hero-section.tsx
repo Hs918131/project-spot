@@ -63,7 +63,7 @@ export default function HeroSection() {
         A curated space for developers to share and discover amazing side
         projects. Add the{" "}
         <code className="bg-green-500/30 p-1 rounded-md text-primary">
-          project.spot
+          project-spot
         </code>{" "}
         topic to your GitHub repositories & showcase them at{" "}
         <code className="bg-muted/20 p-1 rounded-md">
