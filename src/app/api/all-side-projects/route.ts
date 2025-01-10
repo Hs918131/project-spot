@@ -3,17 +3,10 @@ import octokit from "@/lib/octokit";
 
 export async function GET() {
   try {
-<<<<<<< HEAD
     // Search for trending repositories with the 'project-spot' topic
     const { data } = await octokit.search.repos({
       q: "topic:project-spot sort:stars-desc",
       per_page: 30, // Limiting to 30 repositories for better performance
-=======
-    // Search for trending repositories with the 'project.spot' topic
-    const { data } = await octokit.search.repos({
-      q: "topic:project.spot sort:stars-desc",
-      per_page: 30; // Limiting to 50 repositories for better performance
->>>>>>> 22de7e7a36fb2c35b1e2becd8aa30a17a73e33ef
     });
 
     // Extract repositories from search results
