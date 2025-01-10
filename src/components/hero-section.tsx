@@ -67,7 +67,7 @@ export default function HeroSection() {
         </code>{" "}
         topic to your GitHub repositories & showcase them at{" "}
         <code className="bg-muted/20 p-1 rounded-md">
-          <span className="hidden sm:inline">project.spot</span>
+          <span className="hidden sm:inline">projectspot.vercel.app</span>
           <span>/your_github_username</span>
         </code>
         .
