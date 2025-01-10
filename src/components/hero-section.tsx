@@ -31,7 +31,7 @@ export default function HeroSection() {
           instrumentSerif.className
         )}
       >
-        {["Showcase", "Your"].map((word, i) => (
+        {["Spot", "Your"].map((word, i) => (
           <motion.span
             key={i}
             className="inline-block mr-[0.2em]"
