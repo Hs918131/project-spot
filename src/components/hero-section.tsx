@@ -60,7 +60,7 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
       >
-        A curated space for developers to share and discover amazing side
+        A curated space for developers to share and discover amazing 
         projects. Add the{" "}
         <code className="bg-green-500/30 p-1 rounded-md text-primary">
           project.spot
