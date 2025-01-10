@@ -28,7 +28,7 @@ export const allSideProjects = [
       "react-demo-project",
       "redux",
       "sass",
-      "side-project",
+      
       "snapchat",
       "storybook",
       "threejs",
