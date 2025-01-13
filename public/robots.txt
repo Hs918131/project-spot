@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://sideprojects.directory/sitemap.xml 
+Sitemap: https://projectspot.vercel.app/sitemap.xml 
