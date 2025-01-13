@@ -17,19 +17,11 @@ export const metadata: Metadata = {
     "project directory",
   ],
   openGraph: {
-    title: "Side Projects Directory",
+    title: "Project Spot",
     description:
       "Showcase your developer side projects and discover what others are building",
-    url: "https://projectspot",
+    url: "https://projectspot.vercel.app/",
     siteName: "Project Spot",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Project Spot Preview",
-      },
-    ],
     type: "website",
   },
   twitter: {
@@ -37,7 +29,7 @@ export const metadata: Metadata = {
     title: "Project Spot",
     description:
       "Showcase your developer side projects and discover what others are building",
-    images: ["/og-image.png"],
+    
   },
   robots: {
     index: true,
@@ -51,6 +43,6 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://projectspot",
+    canonical: "https://projectspot.vercel.app/",
   },
 };
